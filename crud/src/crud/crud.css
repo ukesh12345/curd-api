@@ -1,0 +1,44 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container > h1{
+    margin: 0;
+    text-align: center;
+}
+.container > table {
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+th{
+    background-color: darkblue;
+    color: white;
+}
+th,td {
+    padding: 8px 15px;
+}
+
+#editBtn{
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 4px 8px;
+    margin-right: 4px;
+}
+#deleteBtn{
+    border: none;
+    background-color: crimson;
+    color: white;
+    padding: 4px 8px;
+    margin-right: 4px;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:hover{
+    background-color: gray;
+    color: white;
+}
